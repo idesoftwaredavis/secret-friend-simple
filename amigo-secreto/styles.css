@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(45deg, #ffcccc, #ffe6e6);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 3rem;
+    color: #d63384;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #a61e5c;
+    transform: scale(1.1);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #198754;
+}
+
+#imagen-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
