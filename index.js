@@ -16,7 +16,6 @@ let count = 0;
 // Family
 const participantes = [
   { nombre: "Davis", avatar: "assets/img/davis.png" },
-  { nombre: "Tomas", avatar: "assets/img/tomas.png" },
   { nombre: "Diego", avatar: "assets/img/diego.png" },
   { nombre: "Kevin", avatar: "assets/img/kevin.png" },
   { nombre: "Matias", avatar: "assets/img/matias.png" },
